@@ -80,7 +80,7 @@ int main() {
 #endif
   } else {
     std::cerr << "Couldn't open file" << std::endl;
-    input_file.close();
   }
+  input_file.close();
   return 0;
 }

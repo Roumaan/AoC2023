@@ -4,7 +4,7 @@ project(AoC2023_solutions)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(Days 01 02)
+set(Days 01 02 03)
 
 foreach (day ${Days})
     add_executable(${day}a src/${day}/main.cc)
